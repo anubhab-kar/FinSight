@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="96" viewBox="0 0 420 96" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">FinSight</title>
+  <desc id="desc">FinSight financial market intelligence logo with an upward-trending chart mark.</desc>
+  <defs>
+    <linearGradient id="markGradient" x1="10" y1="12" x2="78" y2="82" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#35D6A0"/>
+      <stop offset="1" stop-color="#16A879"/>
+    </linearGradient>
+  </defs>
+  <!-- Compact market-insight symbol -->
+  <rect x="6" y="6" width="84" height="84" rx="23" fill="#101B25"/>
+  <path d="M25 64V49.5C25 46.46 27.46 44 30.5 44C33.54 44 36 46.46 36 49.5V64H25Z" fill="url(#markGradient)"/>
+  <path d="M43 64V37.5C43 34.46 45.46 32 48.5 32C51.54 32 54 34.46 54 37.5V64H43Z" fill="url(#markGradient)" opacity=".88"/>
+  <path d="M61 64V26.5C61 23.46 63.46 21 66.5 21C69.54 21 72 23.46 72 26.5V64H61Z" fill="url(#markGradient)" opacity=".76"/>
+  <path d="M23 37L39 29L51 34L72 17" stroke="#F4F8FA" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M61.5 17H72V27.5" stroke="#F4F8FA" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Wordmark -->
+  <text x="108" y="60" fill="#FFFFFF" font-family="Inter, Manrope, Arial, sans-serif" font-size="43" font-weight="750" letter-spacing="-1.8">Fin<tspan fill="#16A879">Sight</tspan></text>
+</svg>
