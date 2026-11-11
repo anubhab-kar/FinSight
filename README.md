@@ -13,6 +13,8 @@
   </div>
 </div>
 
+[View the live FinSight demo](https://fin-sight-nu-nine.vercel.app/)
+
 
 ## <a name="introduction">✨ Introduction</a>
 
