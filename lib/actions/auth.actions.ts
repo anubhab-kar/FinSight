@@ -6,12 +6,13 @@ import {headers} from "next/headers";
 
 export const signUpWithEmail = async ({ email, password, fullName, country, investmentGoals, riskTolerance, preferredIndustry }: SignUpFormData) => {
     try {
-        const response = await auth.api.signUpEmail({ body: { email, password, name: fullName } })
+        const normalizedEmail = email.trim().toLowerCase();
+        const response = await auth.api.signUpEmail({ body: { email: normalizedEmail, password, name: fullName.trim() } })
 
         if(response) {
             await inngest.send({
                 name: 'app/user.created',
-                data: { email, name: fullName, country, investmentGoals, riskTolerance, preferredIndustry }
+                data: { email: normalizedEmail, name: fullName.trim(), country, investmentGoals, riskTolerance, preferredIndustry }
             })
         }
 
